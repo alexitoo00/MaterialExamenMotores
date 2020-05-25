@@ -1,0 +1,43 @@
+3°parcial
+1c
+2d
+3c
+4a
+5b
+6d
+7a
+8b
+9b
+10c
+11d
+12c
+13a
+14c
+
+2°Parcial castellano
+1. ¿Qué afirmación es cierta con relación al rendimiento volumétrico?	c) Es un parámetro que nos da una medida de lo bien o mal que un motor alternativo llena de aire sus cilindros
+2. ¿Qué afirmación es cierta con relación al rendimiento volumétrico?	-
+3. ¿Con que objetivo se puede retrasar el cierre de las válvulas de admisión en un motor real?	b) Incrementar el llenado del motor aprovechando la inercia de los gases
+4. Marcar la afirmación correcta con relación al cruce de válvulas (solape)	-
+5. Marcar la afirmación falsa:	d) Las pérdidas de rendimiento volumétrico por calentamiento disminuyen con la velocidad de giro del motor
+6. Como norma general, ¿qué motor presenta mayores pérdidas de bombeo?	a) El de encendido provocado (MEP)
+7. Con relación a los motores de 2 tiempos, marcar la afirmación falsa:	a) Cualquier motor de 2 tiempos puede funcionar girando en ambos sentidos
+8. El barrido de un motor de 2 tiempos será ideal cuando:	c) Los gases quemados sean expulsados por completo
+9. Con relación a un motor de 2 tiempos que funciona a bajas revoluciones, marcar la afirmación verdadera:	d) Todas las anteriores son falsas
+10. Indicar que afirmación es falsa con relación a la sobrealimentación	d) Reduce las pérdidas de bombeo del motor
+11. Marcar la afirmación falsa con relación a los sobrealimentados volumétricos	b) Habitualmente son movidos por los propios gases de escape del motor
+12. ¿Qué problemas soluciona un turbo de geometría variable?	-
+13. ¿Cuál es la utilidad del intercooler?	a) Calentar el aire que sale del compresor y bajar su presión para aumentar su densidad
+
+2°Parcial Inglés
+1. Seleccione las principales ventajas de un motor de 2 tiempos en comparación con un motor de 4 tiempos	d) Todas las respuestas anteriores son correctas
+2. Describir los principales beneficios de un valvetrain OHC en comparación con un OHV	-
+3. ¿Cómo podemos mejorar la eficiencia volumétrica de un motor SI?	b) Abrir la válvula del acelerador
+4. Seleccione la declaración correcta con respecto a la eficiencia volumétrica (VE):	d) El VE es independiente de la velocidad del motor
+5. ¿Cuál es el propósito de un tren de válvulas variables (VVT)?	-
+6. ¿Cómo aumenta el VE el efecto de afinación?	c) Aumentando el tiempo de apertura de las válvulas
+7. Seleccionar la frase correcta con respecto a los supercargadores:	d) Los turbocompresores tienen mala eficiencia a bajas revoluciones
+8. ¿Cuál es el propósito del intercooler?	d) Para calentar el aire después del compresor para aumentar la eficacia volumétrica
+9. Seleccionar la frase correcta con respecto a los motores de 2 tiempos	d) Todas las respuestas anteriores son correctas
+10. Contornear la frase correcta relacionada con el Solapamiento de Válvulas (VO)	b) Si no hay retraso al cerrar el escape no puede existir VO
+11. Seleccione la declaración falsa relacionada con los motores sobrealimentados	d) Normalmente reduce las pérdidas de bombeo
