@@ -10,7 +10,7 @@ clc
 %   ► Paso 2) Añadir aquí por orden todas as variables iniciales que se
 %   conozan tal e como se mostra no ejemplo separadas mediante comas ','
 %   e entrecomilladas '"'
-%   (O espaciado que se deixe non influye na ejecución do programa
+%   (O espaciado que se deixe non influye na ejecución do programa)
 
 Variables = ["q1", "q2", "H1", "H2"];
 
