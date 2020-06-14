@@ -137,8 +137,9 @@ x0 = zeros(max(size(Variables)));
 %   Concatena o nombre das variables có resultado obtido
 msg = '';
 msgError='';
+icono='success';
 for i=1:1:max(size(x))
-    msg = [msg sprintf('%s:  %f\n',Variables(i),x(i))];
+    msg = [msg sprintf('%s =  %f\n',Variables(i),x(i))];
     %   Si a variable era unha incógnita igualada a 0 non continua evaluando
     if x0(i)==0
         continue
@@ -147,6 +148,7 @@ for i=1:1:max(size(x))
     %   como dato e a resolución obtida
     if abs(x0(i)-x(i)) > 0.00001
         msgError = [msgError sprintf('Variable  %s = %f  modificada durante a resolucion\n',Variables(i,1),x0(i))];
+        icono='error';
     end
 end
 if isempty(msgError)
@@ -160,14 +162,21 @@ end
 %   Concatena o posible mensaje de error cós resultados obtidos
 msg = [msgError msg];
 
-%   Mostra en pantalla e por consola o resultado final
-msgbox(msg)
+%   Mostra en pantalla, por consola e de forma bonita o resultado final
+%   Marca ou desmarca os tipos de vista de datos poñendo ou quitando
+%   respectivamente o símbolo '%' antes do comando:
+
+%msgbox(msg,"RESULTADOS DE PARTE DE DIOS");
 sprintf(msg)
+uialert(uifigure,msg,'Resultados','Icon',icono);
+
 
 %   Borra variables innecesarias
 clear ans
 clear i
 clear msgError
+clear h
+
 
 
 
