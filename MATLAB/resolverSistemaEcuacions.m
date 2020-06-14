@@ -4,17 +4,17 @@ clc
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%   Paso 1) Añadir todas as ecuacións que se necesiten na folla
+%   ► Paso 1) Añadir todas as ecuacións que se necesiten na folla
 %   de 'ecuaciones.m' e anotar os índices das variables que se usen
 
-%   Paso 2) Añadir aquí por orden todas as variables iniciales que se
+%   ► Paso 2) Añadir aquí por orden todas as variables iniciales que se
 %   conozan tal e como se mostra no ejemplo separadas mediante comas ','
 %   e entrecomilladas '"'
 %   (O espaciado que se deixe non influye na ejecución do programa
 
 Variables = ["q1", "q2", "H1", "H2"];
 
-%   Paso 3) Ejecutar o programa
+%   ► Paso 3) Ejecutar o programa
 
 
 
