@@ -74,19 +74,10 @@ x0=double(Variables(:,2).');
 [x,feval,flag]=fsolve('ecuaciones',x0);
 
 
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %   De aquí para abaixo é para poñer as cousas bonitas e comprobar que non
-%   hai ningún error, que si fixeches as cousas ben non debería haber nada
-%   que axeitar, porque oye, NO MEU PROGRAMA NON ESTÁN OS TEUS FALLOS !
+%   hai ningún error, que si fixeches as cousas ben, oye, no meu programa
+%   non están os teus fallos
 
-%   (Anyway, o meu correo por si rompe algo: alexandrocb2013@gmail.com)
-%   (Arrepentireime de dar o meu correo? Posiblemente)
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   Concatena o nombre das variables có resultado obtido
 msg='';
@@ -124,19 +115,3 @@ sprintf(msg)
 clear ans
 clear i
 clear msgError
-
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-
-%   And "Thats all folks !!"
-
-
-%   if like
-%       considerFollowing();
-%       considerGithubStarThisProject();
-%       avisameSiAprobasConEstaLeria();
-%       seeYou();
-%   end
