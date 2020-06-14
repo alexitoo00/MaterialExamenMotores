@@ -26,10 +26,29 @@ Variables = ["Variable 1",1.0024;"Variable 2",2;"holis",0;"kk",0];
 %   de todas as variables utilizadas, datos e incógnitas.
 %   Asumimos que si algún dos datos se modifica durante o proceso
 %   de resolución significará que houbo un fallo durante a resolución
-%   ben por datos mal postos, por un error interno da función ou
-%   por ecuacións ou incógnitas insuficientes
+%   ben por datos mal postos, por mal formato dos mismos, por un
+%   error interno da función ou por ecuacións ou incógnitas insuficientes
+%   ou mal postas
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 %   DISCLAIMER 2:   A partir de aquí sólo encontrarás código que non
@@ -37,10 +56,33 @@ Variables = ["Variable 1",1.0024;"Variable 2",2;"holis",0;"kk",0];
 %                   unha parte non en exceso divertida e pode ser un
 %                   tanto confusa e abrumadora si decides continuar
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 %   DISCLAIMER 3:   Có que tes arriba bástache para facer todo o que
 %                   necesitas, non é necesario que revises o meu código
 %                   de baixa calidad para ver que son un programador
 %                   máis ben mediocre
+
+
+
 
 
 
