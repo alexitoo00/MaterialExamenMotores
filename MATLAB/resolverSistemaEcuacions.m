@@ -108,12 +108,12 @@ Variables = ["Variable 1",1.0024;"Variable 2",2;"holis",0;"kk",0];
 %   interesa o nombre que lles poñas, púxeno solamente para que quedara
 %   bonito e "user-friendly". Polo menos todo o "user-friendly" que pode
 %   chegar a ser un programa de MATLAB)
-x0=double(Variables(:,2).');
+x0 = double(Variables(:,2).');
 
 %   Función para resolver o sistema de ecuacións (de verdá pensabas que me
 %   iba a poñer a escribir código esotérico cando teño unha función que fai
 %   todo o traballo por min?)
-[x,feval,flag]=fsolve('ecuaciones',x0);
+[x,feval,flag] = fsolve('ecuaciones',x0);
 
 
 
@@ -131,9 +131,9 @@ x0=double(Variables(:,2).');
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %   Concatena o nombre das variables có resultado obtido
-msg='';
+msg = '';
 for i=1:1:max(size(x))
-    msg=[msg sprintf('%s:  %f\n',Variables(i,1),x(i))];
+    msg = [msg sprintf('%s:  %f\n',Variables(i,1),x(i))];
 end
 msgError='';
 for i=1:1:max(size(feval))
@@ -143,20 +143,20 @@ for i=1:1:max(size(feval))
     end
     %   Checkea si existe unha variación entre as variables proporcionadas
     %   como dato e a resolución obtida
-    if abs(x0(i)-x(i))>0.00001
-        msgError=[msgError sprintf('Variable  %s = %f  modificada durante a resolucion\n',Variables(i,1),x0(i))];
+    if abs(x0(i)-x(i)) > 0.00001
+        msgError = [msgError sprintf('Variable  %s = %f  modificada durante a resolucion\n',Variables(i,1),x0(i))];
     end
 end
 if isempty(msgError)
     %   Si non hai mensajes de error...
-    msgError=sprintf('Resultado completado satisfactoriamente\n\n');
+    msgError = sprintf('Resultado completado satisfactoriamente\n\n');
 else
     %   Si hai mensajes de error...
-    msgError=[msgError newline];
+    msgError = [msgError newline];
 end
 
 %   Concatena o posible mensaje de error cós resultados obtidos
-msg=[msgError msg];
+msg = [msgError msg];
 
 %   Mostra en pantalla e por consola o resultado final
 msgbox(msg)
