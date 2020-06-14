@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 close all
 clear
 clc
@@ -362,5 +361,4 @@ clear msgError
 %       considerGithubStarThisProject();
 %       avisameSiAprobasConEstaLeria();
 %       seeYou();
->>>>>>> 45eb8f658fddcd0e1e7b0b8a57371d4094cd7a4f
 %   end
