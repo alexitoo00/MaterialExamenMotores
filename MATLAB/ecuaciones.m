@@ -18,9 +18,10 @@ function [f] = ecuaciones(x)
 %                   de '%' a ecuación que representa para unha
 %                   visualización e comprensión máis clara do sistema
 
-f(1) = x(1) + x(2)-20;              %   q1 + q2 = Q
-f(2) = x(3) - x(4);                 %   H1 = H2
-f(3)= x(3) -2*(63-0.375*x(1)^2);    %   H1 = 2 * (63 - 0.375 * q1^2)
-f(4)= x(4) - 63 +0.375*(x(2)^2);    %   H2 = 63 - 0.375 * q2^2
+f(1) = x(1) + x(2) - x(3);          %   q1 + q2 = Q
+f(2)= x(3)-20;                      %   Q = 20 
+f(3) = x(4) - x(5);                 %   H1 = H2
+f(4)= x(4) -2*(63-0.375*x(1)^2);    %   H1 = 2 * (63 - 0.375 * q1^2)
+f(5)= x(5) - 63 +0.375*(x(2)^2);    %   H2 = 63 - 0.375 * q2^2
 
 end

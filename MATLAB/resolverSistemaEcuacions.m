@@ -12,7 +12,7 @@ clc
 %   e entrecomilladas '"'
 %   (O espaciado que se deixe non influye na ejecución do programa)
 
-Variables = ["q1", "q2", "H1", "H2"];
+Variables = ["q1", "q2","Q" , "H1", "H2"];
 
 %   ► Paso 3) Ejecutar o programa
 
@@ -168,7 +168,7 @@ msg = [msgError msg];
 
 %msgbox(msg,"RESULTADOS DE PARTE DE DIOS");
 sprintf(msg)
-uialert(uifigure,msg,'Resultados','Icon',icono);
+%uialert(uifigure,msg,'Resultados','Icon',icono);
 
 
 %   Borra variables innecesarias
